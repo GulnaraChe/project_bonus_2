@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int start_amount = 250;
+        int startAmount = 250;
         int bonus = 0;
         int amount = 1350;
         //boolean bonus1 = amount > 1000;
@@ -15,6 +15,6 @@ public class Main {
         System.out.println("Бонус за покупку");
         System.out.println(bonus);
         System.out.println("Итоговый счет");
-        System.out.println(start_amount + amount + bonus);
+        System.out.println(startAmount + amount + bonus);
     }
 }
